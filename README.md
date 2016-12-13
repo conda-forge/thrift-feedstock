@@ -11,6 +11,18 @@ Summary: Python bindings for the Apache Thrift RPC system
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/thrift-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/thrift-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/thrift-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/thrift-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/thrift-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/thrift-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thrift/badges/version.svg)](https://anaconda.org/conda-forge/thrift)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thrift/badges/downloads.svg)](https://anaconda.org/conda-forge/thrift)
+
 Installing thrift
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `thrift` available on your platfor
 ```
 conda search thrift --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/thrift-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/thrift-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/thrift-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/thrift-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/thrift-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/thrift-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thrift/badges/version.svg)](https://anaconda.org/conda-forge/thrift)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thrift/badges/downloads.svg)](https://anaconda.org/conda-forge/thrift)
 
 
 Updating thrift-feedstock
