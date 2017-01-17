@@ -1,6 +1,6 @@
 {% set name = "thrift" %}
 {% set version = "0.10.0" %}
-{% set sha256 = "b7f6c09155321169af03f9fb20dc15a4a0c7481e7c334a5ba8f7f0d864633209" %}
+{% set sha256 = "d7c64eb6b60b563ded4a2f965d4960111d56f82c97bb80c5990701004b4eb98f" %}
 
 
 package:
