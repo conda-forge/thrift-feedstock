@@ -14,14 +14,16 @@ Summary: Python bindings for the Apache Thrift RPC system
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/thrift-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/thrift-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/thrift-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/thrift-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/thrift-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/thrift-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/thrift-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/thrift-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/thrift-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/thrift-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/thrift-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/thrift-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thrift/badges/version.svg)](https://anaconda.org/conda-forge/thrift)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/thrift/badges/downloads.svg)](https://anaconda.org/conda-forge/thrift)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-thrift-green.svg)](https://anaconda.org/conda-forge/thrift) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/thrift.svg)](https://anaconda.org/conda-forge/thrift) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/thrift.svg)](https://anaconda.org/conda-forge/thrift) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/thrift.svg)](https://anaconda.org/conda-forge/thrift) |
 
 Installing thrift
 =================
