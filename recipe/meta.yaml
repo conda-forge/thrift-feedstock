@@ -1,6 +1,6 @@
-{% set version = "0.11.0" %}
+{% set version = "0.13.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "7d59ac4fdcb2c58037ebd4a9da5f9a49e3e034bf75b3f26d9fe48ba3d8806e6b" %}
+{% set hash = "9af1c86bf73433afc6010ed376a6c6aca2b54099cc0d61895f640870a9ae7d89" %}
 {% set name = "thrift" %}
 
 package:
@@ -13,8 +13,8 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 1001
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
  
 requirements:
   build:
