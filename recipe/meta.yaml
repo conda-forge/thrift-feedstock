@@ -36,7 +36,7 @@ test:
 
 about:
   home: http://thrift.apache.org
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   summary: 'Python bindings for the Apache Thrift RPC system'
 
