@@ -24,7 +24,7 @@ requirements:
     - python
     - setuptools
     - six >=1.7.2
-
+    - wheel
   run:
     - python
     - six >=1.7.2
@@ -35,11 +35,18 @@ test:
     - thrift.protocol
     - thrift.server
     - thrift.transport
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
-  home: http://thrift.apache.org
-  license: Apache 2.0
-  summary: 'Python bindings for the Apache Thrift RPC system'
+  home: https://thrift.apache.org
+  license: Apache-2.0
+  license_family: APACHE
+  summary: Python bindings for the Apache Thrift RPC system
+  dev_url: https://github.com/apache/thrift
+  doc_url: https://thrift.apache.org/docs/
 
 extra:
   recipe-maintainers:
