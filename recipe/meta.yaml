@@ -1,6 +1,6 @@
-{% set version = "0.13.0" %}
+{% set version = "0.15.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "9af1c86bf73433afc6010ed376a6c6aca2b54099cc0d61895f640870a9ae7d89" %}
+{% set hash = "87c8205a71cf8bbb111cb99b1f7495070fbc9cabb671669568854210da5b3e29" %}
 {% set name = "thrift" %}
 
 package:
@@ -24,7 +24,7 @@ requirements:
     - python
     - setuptools
     - six >=1.7.2
-
+    - wheel
   run:
     - python
     - six >=1.7.2
@@ -35,11 +35,18 @@ test:
     - thrift.protocol
     - thrift.server
     - thrift.transport
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
-  home: http://thrift.apache.org
-  license: Apache 2.0
-  summary: 'Python bindings for the Apache Thrift RPC system'
+  home: https://thrift.apache.org
+  license: Apache-2.0
+  license_family: APACHE
+  summary: Python bindings for the Apache Thrift RPC system
+  dev_url: https://github.com/apache/thrift
+  doc_url: https://thrift.apache.org/docs/
 
 extra:
   recipe-maintainers:
