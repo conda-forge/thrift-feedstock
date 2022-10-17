@@ -1,4 +1,4 @@
-{% set version = "0.15.0" %}
+{% set version = "0.16.0" %}
 {% set hash_type = "sha256" %}
 {% set hash = "87c8205a71cf8bbb111cb99b1f7495070fbc9cabb671669568854210da5b3e29" %}
 {% set name = "thrift" %}
