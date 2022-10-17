@@ -44,6 +44,8 @@ about:
   home: https://thrift.apache.org
   license: Apache-2.0
   license_family: APACHE
+  license_file: LICENSE
+  license_url: https://github.com/apache/thrift/blob/v{{ version }}/LICENSE
   summary: Python bindings for the Apache Thrift RPC system
   dev_url: https://github.com/apache/thrift
   doc_url: https://thrift.apache.org/docs/
