@@ -1,6 +1,6 @@
-{% set version = "0.16.0" %}
+{% set version = "0.17.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "2b5b6488fcded21f9d312aa23c9ff6a0195d0f6ae26ddbd5ad9e3e25dfc14408" %}
+{% set hash = "f5888bcd3b8de40c2c2ab86896867ad9b18510deb412cba3e5da76fb4c604c29" %}
 {% set name = "thrift" %}
 
 package:
@@ -8,13 +8,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://github.com/apache/thrift/archive/refs/tags/v{{ version }}.tar.gz
   {{ hash_type }}: {{ hash }}
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: {{ PYTHON }} -m pip install ./lib/py -vv
 
 requirements:
   build:
