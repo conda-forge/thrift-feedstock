@@ -1,5 +1,5 @@
-{% set version = "0.18.1" %}
-{% set hash = "9cea30b9700153329ae1926cc05a20bbe3e8451ae270b0c8c5c5fe9929924cb3" %}
+{% set version = "0.19.0" %}
+{% set hash = "6428911db505702c51f7d993155a4a4c8afee83fdd021b52f2eccd8d34780629" %}
 {% set name = "thrift" %}
 
 package:
