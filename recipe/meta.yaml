@@ -1,5 +1,5 @@
-{% set version = "0.20.0" %}
-{% set hash = "cd7b829d3d9d87f9f7d708e004eef7629789591ee1d416f4741913bc33e5c27d" %}
+{% set version = "0.21.0" %}
+{% set hash = "31e46de96a7b36b8b8a457cecd2ee8266f81a83f8e238a9d324d8c6f42a717bc" %}
 {% set name = "thrift" %}
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install lib/py --no-deps -vv
 
 requirements:
