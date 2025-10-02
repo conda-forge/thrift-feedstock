@@ -325,4 +325,5 @@ Feedstock Maintainers
 
 * [@mariusvniekerk](https://github.com/mariusvniekerk/)
 * [@marshall245](https://github.com/marshall245/)
+* [@xhochy](https://github.com/xhochy/)
 
