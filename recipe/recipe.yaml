@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.22.0
+  version: 0.20.0
   name: thrift
 
 package:
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/apache/thrift/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: c4649c5879dd56c88f1e7a1c03e0fbfcc3b2a2872fb81616bffba5aa8a225a37
+  sha256: cd7b829d3d9d87f9f7d708e004eef7629789591ee1d416f4741913bc33e5c27d
 
 build:
-  number: 1
+  number: 2
   script: ${{ PYTHON }} -m pip install lib/py --no-deps -vv
 
 requirements:
