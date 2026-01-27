@@ -32,6 +32,7 @@ requirements:
     - six
   run:
     - python
+    - six
 
 tests:
   - python:
