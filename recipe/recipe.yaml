@@ -29,8 +29,10 @@ requirements:
     - pip
     - python
     - setuptools
+    - six
   run:
     - python
+    - six
 
 tests:
   - python:
