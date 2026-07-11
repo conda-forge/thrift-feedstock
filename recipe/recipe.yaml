@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.23.0"
+  version: "0.24.0"
   name: thrift
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/apache/thrift/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 087ba9517063c8252e9e7fb4e3891a9fd85e20af80e0309e2276eff16791d75c
+  sha256: d3a60676b1df3fb9850f6ce1e8a3df9a0efac036ceb4bce8ce46ee3eca735d2d
 
 build:
   number: 0
